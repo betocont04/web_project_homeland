@@ -1,0 +1,30 @@
+.intro{
+    max-width: 830px;
+    max-height: 607px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro__text-title{
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+}
+
+.intro__text-cita{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.intro__text-autor{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.intro__text-resumen{
+    font-size: 16px;
+    line-height: 26px;
+}
