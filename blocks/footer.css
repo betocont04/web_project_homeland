@@ -2,5 +2,6 @@
     max-width: 194px;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
+    text-align: right;
+    margin: auto;
 }
