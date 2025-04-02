@@ -1,44 +1,41 @@
 .intro{
-    max-width: 830px;
+    max-width: 990px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 95px auto;
+    text-align: left;
 }
 
 .intro__text-title{
     font-size: 54px;
     line-height: 1.1;
-    font-weight: 900;
     max-width: 830px;
     font-family: "Inter-Black", sans-serif;
 }
 
+.intro__text-paragraph{
+  max-width: 740px;
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: justify;
+}
+
 .intro__text-cita{
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
     text-align: left;
-    max-width: 738px;
-    font-family: "Inter-Regular", sans-serif;
 }
 
 .intro__text-autor{
     font-weight: 400;
     text-align: right;
-    font-size: 24px;
-    max-width: 732px;
-    font-family: "Inter-Regular", sans-serif;
 }
 
 .intro__text-resumen{
-    max-width: 722px;
     font-size: 16px;
     line-height: 1.6;
-    text-align: left;
-    font-family: "Inter-Regular", sans-serif;
 }
 
-@media screen and (min-width: 320px) and (max-width: 544px) {
+/* @media screen and (min-width: 320px) and (max-width: 544px) {
     .intro {
       max-width: 288px;
     }
@@ -74,4 +71,4 @@
     .intro__text-resumen {
       font-size: 16px;
     }
-  }
+  } */
